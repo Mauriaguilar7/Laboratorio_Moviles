@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_top_text">64dp</dimen>
+    <dimen name="medium">30sp</dimen>
+    <dimen name="price_five">45dp</dimen>
+    <dimen name="img_width">120dp</dimen>
+    <dimen name="img_height">120dp</dimen>
+    <dimen name="margin_start">60dp</dimen>
+    <dimen name="margin_top">60dp</dimen>
+    <dimen name="margin_end">50dp</dimen>
+    <dimen name="margin_end_rigth">60dp</dimen>
+    <dimen name="margin_top_2">50dp</dimen>
+    <dimen name="margin_end2">60dp</dimen>
+    <dimen name="small">36dp</dimen>
+    <dimen name="margin_end_text">40dp</dimen>
+    <dimen name="margin_total">25dp</dimen>
+    <dimen name="big">64sp</dimen>
+</resources>
