@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Laboratorio_05</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="movie2">Harry Potter y la piedra Filosofal</string>
+    <string name="movie1">Star Wars Episodio 3: La vengaza de los Sith</string>
+    <string name="calificacion2">9.5</string>
+    <string name="calificacion1">9.8</string>
+    <string name="billboard">Billboard</string>
+    <string name="name">Name</string>
+    <string name="new_movie">New Movie</string>
+    <string name="submit">SUBMIT</string>
+    <string name="category">Category</string>
+    <string name="description">Description</string>
+    <string name="calification">Calification</string>
+    <string name="movie_star_wars">Star wars episodio 3: La venganza de los sith</string>
+    <string name="categoria">Ciencia ficcion</string>
+    <string name="descripcion_movie1">Anakin joins forces with Obi-Wan and sets Palpatine free from the evil clutches of Count Doku. However, he falls prey to Palpatine and the Jedis\' mind games and gives into temptation.</string>
+    <string name="agregar">agregar pelicula</string>
+</resources>
