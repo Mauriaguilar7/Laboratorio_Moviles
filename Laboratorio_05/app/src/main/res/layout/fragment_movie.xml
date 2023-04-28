@@ -7,10 +7,10 @@
     android:layout_height="match_parent"
     android:background="@color/backgroundLayout"
     android:backgroundTint="@color/backgroundLayout"
-    tools:context=".movieFragment" >
+    tools:context=".ui.movie.movieFragment" >
 
     <Button
-        android:id="@+id/action_submit"
+        android:id="@+id/submitButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -20,6 +20,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/filledTextField3" />
 
+    <Button
+        android:id="@+id/simon_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/buttonColor"
+        android:text="SI"
+        app:layout_constraintEnd_toEndOf="@+id/submitButton"
+        app:layout_constraintTop_toBottomOf="@+id/submitButton" />
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -47,7 +55,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/textInputEditText"
+            android:id="@+id/nameEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -67,6 +75,7 @@
         app:layout_constraintTop_toBottomOf="@+id/filledTextField">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/categoryEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -88,6 +97,7 @@
         app:layout_constraintTop_toBottomOf="@+id/filledTextField2">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/descriptionEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -109,6 +119,7 @@
         app:layout_constraintTop_toBottomOf="@+id/filledTextField4">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/qualificationEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
