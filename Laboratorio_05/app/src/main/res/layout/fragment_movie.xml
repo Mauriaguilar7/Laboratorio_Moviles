@@ -8,7 +8,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.example.laboratorio_05.ui.movie.MovieViewModel" />
+            type="com.example.laboratorio_05.ui.movie.viewmodel.MovieViewModel" />
     </data>
 
 
@@ -17,7 +17,7 @@
     android:layout_height="match_parent"
     android:background="@color/backgroundLayout"
     android:backgroundTint="@color/backgroundLayout"
-    tools:context=".ui.movie.movieFragment">
+    tools:context=".ui.movie.newmovie.movieFragment">
 
     <Button
         android:id="@+id/submitButton"

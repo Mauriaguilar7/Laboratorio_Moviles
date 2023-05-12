@@ -6,14 +6,16 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
-import com.example.laboratorio_05.R
+import androidx.navigation.fragment.findNavController
 import com.example.laboratorio_05.databinding.FragmentMovieBinding
+import com.example.laboratorio_05.databinding.FragmentNewMovieBinding
+import com.example.laboratorio_05.ui.movie.viewmodel.MovieViewModel
 
 
 class newMovieFragment : Fragment() {
 
 
-    private lateinit var binding: FragmentMovieBinding
+    private lateinit var binding: FragmentNewMovieBinding
 
     private val movieViewModel: MovieViewModel by activityViewModels {
         MovieViewModel.Factory
@@ -25,12 +27,15 @@ class newMovieFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        binding = FragmentMovieBinding.inflate(inflater,container, false)
+        binding = FragmentNewMovieBinding.inflate(inflater,container, false)
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?){
         super.onViewCreated(view, savedInstanceState)
+
+        binding.viewmodel = movieViewModel
+        binding.lifecycleOwner = viewLifecycleOwner
 
     }
 }
