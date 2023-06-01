@@ -2,9 +2,7 @@ package com.example.laboratorio_05.ui.movie.billoard.recyclerview
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import android.widget.ExpandableListView.OnChildClickListener
 import androidx.recyclerview.widget.RecyclerView
-import com.example.laboratorio_05.R
 import com.example.laboratorio_05.data.model.MovieModel
 import com.example.laboratorio_05.databinding.MovieItemBinding
 
