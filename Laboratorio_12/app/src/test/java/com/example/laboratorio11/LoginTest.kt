@@ -30,7 +30,7 @@ class LoginTest {
     @Test
     fun loginTest() = runTest {
         val mockResponse = MockResponse()
-        mockResponse.setBody("""{"msg": "login successful, "token": "testToken"}""")
+        mockResponse.setBody("""{"msg": "Login successful", "token": "testToken"}""")
         mockResponse.setResponseCode(200)
         mockWebServer.enqueue(mockResponse)
 
@@ -47,7 +47,7 @@ class LoginTest {
     @Test
     fun unsuccesfulLogin() = runTest {
         val mockResponse = MockResponse()
-        mockResponse.setBody("""{"msg": Check credentials}""")
+        mockResponse.setBody("""{"msg": "Check credentials"}""")
         mockWebServer.enqueue(mockResponse)
 
         val response = authService.login(LoginRequest("admin", "admin" ))
